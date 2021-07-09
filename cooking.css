@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url(img/bg2.jpg);
+    font-size: 20px;
+}
+
+.light-bg {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+header {
+    background-color: #fff;
+}
+
+nav {
+    background-color: #FFA840;
+    height: 10vh;
+    /* line-height: 10vh; */
+    display: flex;
+    justify-content: start;
+}
+
+nav img {
+    height: 80%;
+    /* margin: auto; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    /* justify-content: start; */
+   
+}
+
+nav a {
+    background-color: #00B454	;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    /* vertical-align: middle; */
+    border-radius: 10px;
+    font-size: 1.75em;
+
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    /* задаем тень для main */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0;
+    /* background-color: darkgray; */
+    font-size: 3.5em;
+    font-weight: 900;
+    color: #034569;
+}
+
+h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+h2, h3 {
+    font-weight: 600;
+}
+
+.pizza {
+    width: 50%;
+    float: right;
+}
+
+.ingr {
+    margin-bottom: 100px;
+}
+
+/* пункты списка убираем внутрь */
+ul {
+    list-style-position: inside;
+}
+
+/* уменьшаем картинки шагов, смещаем текст влево от картинок */
+.steps img {
+    width: 30%;
+    float: left;
+    clear: both;
+    margin-right: 30px;
+}
+
+.steps {
+    width: 100%;
+    /* делаем, чтобы текст каждого шага был напротив соответствующей картинки */
+    overflow: hidden;
+    padding: 30px;
+}
+
+.bonappetite {
+    font-size: 2em;
+    padding: 70px;
+    text-align: center;
+    font-weight: 600;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 15px 10px -10px rgba(0,0,0,0.5);
+}
